@@ -30,7 +30,7 @@ A privileged DaemonSet can carry out changes or monitor a Linux host on Kubernet
 
 ## Run a HostProcess workload
 
-To use HostProcess features with your deployment, set *privilaged: true*, *hostProcess: true*, and *hostNetwork: true*:  
+To use HostProcess features with your deployment, set *privileged: true*, *hostProcess: true*, and *hostNetwork: true*:  
 
 ```yaml
     spec:
